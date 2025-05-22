@@ -21,10 +21,20 @@ export async function fetchFromPostgrest<T>(endpoint: string, params?: Record<st
   return response.json();
 }
 
-export async function postToPostgrest<T>(endpoint: string, data: T, filter: string, prefer: string): Promise<any> {
+export async function postToPostgrest<T>(endpoint: string, data: T): Promise<any> {
 
-  const { id, ...rest } = data as any;
-  const cleanData = id != null ? { ...rest, id } : rest;
+  let cleanData = data;
+  let filter = '';
+  let prefer = '';
+  if ((data as any)['id'] != null) {
+    const { id, ...rest } = data as any;
+    cleanData = id != null ? { ...rest, id } : rest;
+    filter = `id=eq.${id}`;
+    prefer = 'resolution=merge-duplicates';
+  }
+  else{
+    prefer = 'return=representation';
+  }
 
   const baseUrl = process.env.REACT_APP_POSTGREST_URL || '';
   const url = `${baseUrl}/${endpoint}?${filter}`;

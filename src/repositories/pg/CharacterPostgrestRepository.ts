@@ -50,9 +50,7 @@ export class CharacterPostgrestRepository {
     // Удаляем вложенные сущности для основного запроса
     const { attributes, skills, edges, hindrances, gear, weapons, powers, ...mainChar } = dbChar;
     // POST основной объект
-    const [created] = await postToPostgrest('characters', mainChar, mainChar.id != null ? `id=eq.${mainChar.id}` : '',
-      mainChar.id != null ? 'resolution=merge-duplicates' : 'return=representation'
-    );
+    const [created] = await postToPostgrest('characters', mainChar  );
     const characterId = created.id;
     // 2. Сохраняем вложенные сущности отдельными запросами
     if (attributes?.length)
@@ -60,8 +58,6 @@ export class CharacterPostgrestRepository {
           postToPostgrest(
             'character_attributes',
             { ...attr, character_id: characterId }, 
-            attr.id != null ? `id=eq.${attr.id}` : '',
-            attr.id != null ? 'resolution=merge-duplicates' : 'return=representation'
           )
         ));
       
@@ -70,9 +66,7 @@ export class CharacterPostgrestRepository {
           postToPostgrest(
             'character_skills',
             { ...skill, character_id: characterId }, 
-            skill.id != null ? `id=eq.${skill.id}` : '',
-            skill.id != null ? 'resolution=merge-duplicates' : 'return=representation'
-            )
+          )
         ));
       
       if (edges?.length)
@@ -80,8 +74,6 @@ export class CharacterPostgrestRepository {
           postToPostgrest(
             'character_edges',
             { ...edge, character_id: characterId }, 
-            edge.id != null ? `id=eq.${edge.id}` : '',
-            edge.id != null ? 'resolution=merge-duplicates' : 'return=representation'
           )
         ));
       
@@ -90,8 +82,6 @@ export class CharacterPostgrestRepository {
           postToPostgrest(
             'character_hindrances',
             { ...h, character_id: characterId }, 
-            h.id != null ? `id=eq.${h.id}` : '',
-            h.id != null ? 'resolution=merge-duplicates' : 'return=representation'
           )
         ));
       
@@ -99,9 +89,7 @@ export class CharacterPostgrestRepository {
         await Promise.all(gear.map(g =>
           postToPostgrest(
             'character_gear',
-            { ...g, character_id: characterId }, 
-            g.id != null ? `id=eq.${g.id}` : '',
-            g.id != null ? 'resolution=merge-duplicates' : 'return=representation'
+            { ...g, character_id: characterId },
           )
         ));
       
@@ -110,8 +98,6 @@ export class CharacterPostgrestRepository {
           postToPostgrest(
             'character_weapons',
             { ...w, character_id: characterId }, 
-            w.id != null ? `id=eq.${w.id}` : '',
-            w.id != null ? 'resolution=merge-duplicates' : 'return=representation'
           )
         ));
       
@@ -120,8 +106,6 @@ export class CharacterPostgrestRepository {
           postToPostgrest(
             'character_powers',
             { ...p, character_id: characterId }, 
-            p.id != null ? `id=eq.${p.id}` : '',
-            p.id != null ? 'resolution=merge-duplicates' : 'return=representation'
           )
         ));
       
