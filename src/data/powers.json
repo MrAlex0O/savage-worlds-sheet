@@ -1,0 +1,66 @@
+{
+  "en": [
+    {
+      "name": "Bolt",
+      "powerPoints": 1,
+      "range": "12/24/48",
+      "duration": "Instant",
+      "effect": "2d6 damage",
+      "sourceId": "SWADE",
+      "sourcePage": 163,
+      "language": "en"
+    },
+    {
+      "name": "Healing",
+      "powerPoints": 3,
+      "range": "Touch",
+      "duration": "Instant",
+      "effect": "Heal one wound",
+      "sourceId": "SWADE",
+      "sourcePage": 166,
+      "language": "en"
+    },
+    {
+      "name": "Barrier",
+      "powerPoints": 2,
+      "range": "8",
+      "duration": "3 (1/round)",
+      "effect": "Creates a wall of energy",
+      "sourceId": "SWADE",
+      "sourcePage": 163,
+      "language": "en"
+    }
+  ],
+  "ru": [
+    {
+      "name": "Стрела",
+      "powerPoints": 1,
+      "range": "12/24/48",
+      "duration": "Мгновенно",
+      "effect": "2d6 урона",
+      "sourceId": "SWADE",
+      "sourcePage": 163,
+      "language": "ru"
+    },
+    {
+      "name": "Лечение",
+      "powerPoints": 3,
+      "range": "Касание",
+      "duration": "Мгновенно",
+      "effect": "Лечит одну рану",
+      "sourceId": "SWADE",
+      "sourcePage": 166,
+      "language": "ru"
+    },
+    {
+      "name": "Барьер",
+      "powerPoints": 2,
+      "range": "8",
+      "duration": "3 (1/раунд)",
+      "effect": "Создает стену энергии",
+      "sourceId": "SWADE",
+      "sourcePage": 163,
+      "language": "ru"
+    }
+  ]
+} 

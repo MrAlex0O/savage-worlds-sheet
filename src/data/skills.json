@@ -1,0 +1,186 @@
+{
+  "en": [
+    {
+      "name": "Athletics",
+      "die": "d4",
+      "modifier": 0,
+      "linkedAttribute": "Agility",
+      "language": "en",
+      "sourceId": "SWADE",
+      "sourcePage": 86
+    },
+    {
+      "name": "Common Knowledge",
+      "die": "d4",
+      "modifier": 0,
+      "linkedAttribute": "Smarts",
+      "language": "en",
+      "sourceId": "SWADE",
+      "sourcePage": 86
+    },
+    {
+      "name": "Notice",
+      "die": "d4",
+      "modifier": 0,
+      "linkedAttribute": "Smarts",
+      "language": "en",
+      "sourceId": "SWADE",
+      "sourcePage": 87
+    },
+    {
+      "name": "Persuasion",
+      "die": "d4",
+      "modifier": 0,
+      "linkedAttribute": "Spirit",
+      "language": "en",
+      "sourceId": "SWADE",
+      "sourcePage": 87
+    },
+    {
+      "name": "Stealth",
+      "die": "d4",
+      "modifier": 0,
+      "linkedAttribute": "Agility",
+      "language": "en",
+      "sourceId": "SWADE",
+      "sourcePage": 88
+    },
+    {
+      "name": "Fighting",
+      "die": "d4",
+      "modifier": 0,
+      "linkedAttribute": "Agility",
+      "language": "en",
+      "sourceId": "SWADE",
+      "sourcePage": 86
+    },
+    {
+      "name": "Shooting",
+      "die": "d4",
+      "modifier": 0,
+      "linkedAttribute": "Agility",
+      "language": "en",
+      "sourceId": "SWADE",
+      "sourcePage": 88
+    },
+    {
+      "name": "Healing",
+      "die": "d4",
+      "modifier": 0,
+      "linkedAttribute": "Smarts",
+      "language": "en",
+      "sourceId": "SWADE",
+      "sourcePage": 87
+    },
+    {
+      "name": "Research",
+      "die": "d4",
+      "modifier": 0,
+      "linkedAttribute": "Smarts",
+      "language": "en",
+      "sourceId": "SWADE",
+      "sourcePage": 88
+    },
+    {
+      "name": "Intimidation",
+      "die": "d4",
+      "modifier": 0,
+      "linkedAttribute": "Spirit",
+      "language": "en",
+      "sourceId": "SWADE",
+      "sourcePage": 87
+    }
+  ],
+  "ru": [
+    {
+      "name": "Атлетика",
+      "die": "d4",
+      "modifier": 0,
+      "linkedAttribute": "Agility",
+      "language": "ru",
+      "sourceId": "SWADE",
+      "sourcePage": 86
+    },
+    {
+      "name": "Общие знания",
+      "die": "d4",
+      "modifier": 0,
+      "linkedAttribute": "Smarts",
+      "language": "ru",
+      "sourceId": "SWADE",
+      "sourcePage": 86
+    },
+    {
+      "name": "Внимание",
+      "die": "d4",
+      "modifier": 0,
+      "linkedAttribute": "Smarts",
+      "language": "ru",
+      "sourceId": "SWADE",
+      "sourcePage": 87
+    },
+    {
+      "name": "Убеждение",
+      "die": "d4",
+      "modifier": 0,
+      "linkedAttribute": "Spirit",
+      "language": "ru",
+      "sourceId": "SWADE",
+      "sourcePage": 87
+    },
+    {
+      "name": "Скрытность",
+      "die": "d4",
+      "modifier": 0,
+      "linkedAttribute": "Agility",
+      "language": "ru",
+      "sourceId": "SWADE",
+      "sourcePage": 88
+    },
+    {
+      "name": "Драка",
+      "die": "d4",
+      "modifier": 0,
+      "linkedAttribute": "Agility",
+      "language": "ru",
+      "sourceId": "SWADE",
+      "sourcePage": 86
+    },
+    {
+      "name": "Стрельба",
+      "die": "d4",
+      "modifier": 0,
+      "linkedAttribute": "Agility",
+      "language": "ru",
+      "sourceId": "SWADE",
+      "sourcePage": 88
+    },
+    {
+      "name": "Лечение",
+      "die": "d4",
+      "modifier": 0,
+      "linkedAttribute": "Smarts",
+      "language": "ru",
+      "sourceId": "SWADE",
+      "sourcePage": 87
+    },
+    {
+      "name": "Исследование",
+      "die": "d4",
+      "modifier": 0,
+      "linkedAttribute": "Smarts",
+      "language": "ru",
+      "sourceId": "SWADE",
+      "sourcePage": 88
+    },
+    {
+      "name": "Запугивание",
+      "die": "d4",
+      "modifier": 0,
+      "linkedAttribute": "Spirit",
+      "language": "ru",
+      "sourceId": "SWADE",
+      "sourcePage": 87
+    }
+  ]
+} 

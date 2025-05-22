@@ -1,0 +1,116 @@
+{
+  "en": [
+    {
+      "name": "Dagger",
+      "damage": "Str+d4",
+      "range": "3/6/12",
+      "ap": 0,
+      "weight": 1,
+      "notes": "Can be thrown",
+      "sourceId": "SWADE",
+      "sourcePage": 93,
+      "language": "en"
+    },
+    {
+      "name": "Longsword",
+      "damage": "Str+d8",
+      "range": "-",
+      "ap": 0,
+      "weight": 3,
+      "notes": "Parry +1",
+      "sourceId": "SWADE",
+      "sourcePage": 93,
+      "language": "en"
+    },
+    {
+      "name": "Battle Axe",
+      "damage": "Str+d8",
+      "range": "-",
+      "ap": 0,
+      "weight": 2,
+      "notes": "",
+      "sourceId": "SWADE",
+      "sourcePage": 93,
+      "language": "en"
+    },
+    {
+      "name": "Pistol",
+      "damage": "2d6",
+      "range": "12/24/48",
+      "ap": 1,
+      "weight": 2,
+      "notes": "Semi-Auto",
+      "sourceId": "SWADE",
+      "sourcePage": 94,
+      "language": "en"
+    },
+    {
+      "name": "Rifle",
+      "damage": "2d8",
+      "range": "24/48/96",
+      "ap": 2,
+      "weight": 8,
+      "notes": "Semi-Auto",
+      "sourceId": "SWADE",
+      "sourcePage": 94,
+      "language": "en"
+    }
+  ],
+  "ru": [
+    {
+      "name": "Кинжал",
+      "damage": "Сил+d4",
+      "range": "3/6/12",
+      "ap": 0,
+      "weight": 1,
+      "notes": "Можно метать",
+      "sourceId": "SWADE",
+      "sourcePage": 93,
+      "language": "ru"
+    },
+    {
+      "name": "Длинный меч",
+      "damage": "Сил+d8",
+      "range": "-",
+      "ap": 0,
+      "weight": 3,
+      "notes": "Защита +1",
+      "sourceId": "SWADE",
+      "sourcePage": 93,
+      "language": "ru"
+    },
+    {
+      "name": "Боевой топор",
+      "damage": "Сил+d8",
+      "range": "-",
+      "ap": 0,
+      "weight": 2,
+      "notes": "",
+      "sourceId": "SWADE",
+      "sourcePage": 93,
+      "language": "ru"
+    },
+    {
+      "name": "Пистолет",
+      "damage": "2d6",
+      "range": "12/24/48",
+      "ap": 1,
+      "weight": 2,
+      "notes": "Полуавтомат",
+      "sourceId": "SWADE",
+      "sourcePage": 94,
+      "language": "ru"
+    },
+    {
+      "name": "Винтовка",
+      "damage": "2d8",
+      "range": "24/48/96",
+      "ap": 2,
+      "weight": 8,
+      "notes": "Полуавтомат",
+      "sourceId": "SWADE",
+      "sourcePage": 94,
+      "language": "ru"
+    }
+  ]
+} 
